@@ -1,6 +1,6 @@
 <h1 align="center">
     <a href="https://github.com/qasim1020/PIAIC-Artifical-Intelligence">
-        <img src="https://github.com/qasim1020/Saylani-A.I/blob/master/Images/logo.png" width = 1000px height = 500px>
+        <img src="https://github.com/qasim1020/Saylani-AI-Batch2/blob/main/images/logo.png" width = 1000px height = 500px>
     </a>
     
   <br/>
