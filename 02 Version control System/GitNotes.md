@@ -6,7 +6,7 @@
 - $ git init (To initialize the repository)
 - $ git init --bare (inittialize Git without making .git folder and place its files outside)
 - $ ls -la (To list down all the contect in your Working Directory)
-- $ git add -A <b>OR</b> $ git add . <b>OR</b> $ giot add fileName (To add changes to git)
+- $ git add -A <b>OR</b> $ git add . <b>OR</b> $ git add fileName (To add changes to git)
 - $ git commit -m “Initial commit" (To Commit your changes)
 - $ cd your/development/folder/ (To change your directory)
 - $ git clone https://github.com/gittower/git-crash-course.git (To clone data from GitHUb)
