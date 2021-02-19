@@ -15,12 +15,12 @@
 2- From the base folder of of your package open "terminal/cmd".
 
 #### PRE REQ
---> pip install twine
+--> pip install twine <br>
 --> pip install wheel
 
 3- After installing the pre-req libraries run the following commands.
 
--->python steup.py bdist_wheel
+-->python steup.py bdist_wheel <br>
 -->twine upload dist/*
 
 Congratulations after giving your pypi user name & pasword  your is avaliable publicly.
