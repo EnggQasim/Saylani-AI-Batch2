@@ -11,7 +11,7 @@
 
 ### MAKING PUBLICLY AVALIABLE
 
-1- Create a file on "pypi". (Tip --> remember "username" and "pasword")
+1- Create a file on "pypi". (Tip --> remember "username" and "pasword")<br>
 2- From the base folder of of your package open "terminal/cmd".
 
 #### PRE REQ
