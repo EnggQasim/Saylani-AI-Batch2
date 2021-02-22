@@ -4,7 +4,7 @@
 
 1- Create a folder with the name of package name (i:e.name should be to the point) <br>
 2- Create another folder inside that folder with the same name of package name.<br>
-3- Inside the inner foler place youe Modulo file by renaming it with the name of "\__init__.py" <br>
+3- Inside the inner folder place your Modulo file by renaming it with the name of "\__init__.py" <br>
 4- Make a proper "README.md" file for your package.<br>
 5- Add a "LICENCE" according to your package requirement. <br>
 6- Create a file by name of "steup.py" and add required infor about Package.
