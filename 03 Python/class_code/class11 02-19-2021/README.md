@@ -24,3 +24,5 @@
 -->twine upload dist/*
 
 Congratulations after giving your pypi user name & pasword  your is avaliable publicly.
+
+BY : QASIM HASSAN (SMIT04588)
