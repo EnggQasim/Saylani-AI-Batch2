@@ -55,4 +55,9 @@
 - $ git push --all -u (push all things on remote server)
 - $ git pull --all (pull all data from server)
 
+if you have local colne you can remane by following steps:
+- git branch -m master main
+- git fetch origin
+- git branch -u origin/main main
+
 BY: Qasim Hassan(SMIT04588)
