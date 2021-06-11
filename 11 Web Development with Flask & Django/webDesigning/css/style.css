@@ -1,0 +1,15 @@
+*{
+    background-color: black;
+    color:white;
+}
+
+h1{
+    color:red;
+}
+.asia{
+    background-color: greenyellow;
+}
+
+#pakflag{
+    border: 5px solid red;
+}
