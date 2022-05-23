@@ -1,35 +1,48 @@
 # Virtual Environment Creation
 
-To install virtual environment : pip install virtualenv
+### METHOD - I ( CONDA ENVIRONMENT)
 
-- virtualenv project_name
-- source project_name/bin/activate
-- clear
-- ls
-- source project_name/Scripts/activate
-- which python
-- which pip
-- pip list
-- pip install numpy
-- pip install pandas
-- pip install --upgrade pip
-- pip install numpy
-- pip install pandas
-- pip install matplotlib
-- pip list
-- python --version
-- pip freeze --local > requirement.txt
-- ls
-- cat requirement.txt
-- deactivate
-- which python
-- which pip
-- pip list
-- rm -rf project_name/
-- ls
-- virtualenv project_name -p python3
-- source project_name/Scripts/activate
-- pip list
-- pip install -r requiremnet.txt
-- pip list
-- deactivate
+- `conda info` (Verify conda is installed, check version number)
+- `conda update conda` (Update conda to the current version)
+- `conda install PACKAGENAME` (nstall a package included in Anaconda)
+- `Jupyter notebook` (Run a package after install, example **jupyter notebook**)
+- `conda update PACKAGENAME` (Update any installed program)
+- `conda create --name py35 python=3.5`  (Create a new environment named py35, install Python 3.5)
+- WINDOWS: `activate py35`  (Activate the new environment to use it)
+- LINUX, macOS: `source activate py35` (Activate the new environment to use it)
+- `conda env list`  (Get a list of all my environments, active environment is shown with \*)
+- `conda list` (List all packages and versions installed in active environment)
+- `conda list --explicit > bio-env.txt`  (Save environment to a text file)
+- `conda env remove --name bio-env` (Delete an environment and everything in it) 
+- WINDOWS: `deactivate` (Deactivate the current environment)
+- macOS, LINUX: `source deactivate` (Deactivate the current environment)
+- `conda env create --file bio-env.txt`  (Create environment from a text file)
+- Windows: `where python` (Show the locations of all versions of Python that are currently in the path )
+- Linux, macOS: `which -a python` (Show the locations of all versions of Python that are currently in the path )
+- `python --version` (Show version information for the current active Python)
+
+
+### METHOD - II (FROM cirtualven PACKAGE)
+
+To install virtual environment : `pip install virtualenv`
+
+- `clear` (To clear the consloe)
+- `ls` (list down all files in the diresed location/directory)
+- `virtualenv <project_name>` (Creating virtual environment by <Project_name>)
+- `virtualenv <project_name> -p python3` (Creating virtual environment by <Project_name> which use Python3 )
+- `source` project_name/bin/activate (In Linux to actrivate your Virtual environment)
+- `source` project_name/Scripts/activate (In Windows to activate your Virtual Environment)
+- `which python` ( Validating your python version)
+- `which pip` (validating your **pip** version)
+- `pip list`(which pip packages are avaliable)
+- `pip install --upgrade pip` ( upgrading your pip)
+- `pip install numpy` (installing more package)
+- `pip install pandas` (installing one more package)
+- `pip install matplotlib` (installing one more package)
+- `pip list` (now checking which packages are avaliable)
+- `python --version` ( checking python version)
+- `pip freeze --local > requirement.txt` (freezeing requirenment into requirement.txt file)
+- `pip install -r requiremnet.txt` ( intalling packages from requirement.txt file)
+- `cat requirement.txt` (print the content of a file onto the standard output stream)
+- `deactivate` (deactivating your environment)
+- `rm -rf project_name/` (removing your project/environment)
