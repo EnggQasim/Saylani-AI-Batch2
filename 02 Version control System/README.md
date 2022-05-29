@@ -30,7 +30,7 @@ Let's Follow now the traditional way again
 - `$ git commit -m “Implement the new login box”` (To Commit your changes)
 - `$ git push -u origin <branchName>` (To push data to GitHub)
 
-Few more important commands that are recomended
+Few more important commands that are recomended. I'll suggest you to try these commends on [Vislazing git simulator](https://git-school.github.io/visualizing-git/#free)
 - `$ git branch -m master <branchName: main>` (To rename the branch name from **master** to **main**. Sometimes this step is not required)
 - `$ git branch -vva` (work same as "$ git remote -va" by giving somr more details )
 - `$ git branch -d <branchName>` (To delete branch )
